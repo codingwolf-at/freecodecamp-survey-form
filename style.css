@@ -41,6 +41,12 @@ header #description {
     padding: 0.5rem 3rem;
 }
 
+@media screen and (max-width: 480px) {
+    #survey-form {
+        margin-bottom: 0rem;
+    }
+}
+
 .form-group {
     margin: 2rem 0rem;
 }
