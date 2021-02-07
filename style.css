@@ -49,12 +49,12 @@ header #description {
     margin-bottom: 0.3rem;   
 }
 
-[type=text], [type=number], select {
+input[type=text], input[type=number], select {
     width: 100%;
     padding: 0.5rem;
 }
 
-[type=text], [type=number], select:focus {
+input[type=text], input[type=number], select:focus {
     outline: none;
 }
 
@@ -74,13 +74,13 @@ button {
     padding: 0.8rem;
     background-color: green;
     color: white;
+    border: none;
 }
 
 button:focus {
     outline: none;
 }
 
-/* temp */
 .block {
     display: block;
 }
