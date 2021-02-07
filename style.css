@@ -4,10 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
     background-image: url(https://images.pexels.com/photos/1363876/pexels-photo-1363876.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,14 +35,14 @@ header #description {
     margin-top: 1rem;
 }
 
+form {
+    margin: 0rem 0rem 2rem 0rem;
+}
+
 /* temp */
 input {
-    display: block;
     font-family: inherit;
 }
-label {
+.block {
     display: block;
-}
-select {
-    font-family: inherit;
 }
