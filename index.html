@@ -26,12 +26,12 @@
 
             <div class="form-group">
                 <label for="email" id="email-label" class="block form-label">Email</label>
-                <input type="text" name="email" id="email" placeholder="Enter your email" required>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
             </div>
 
             <div class="form-group">
                 <label for="age" id="number-label" class="block form-label">Age</label>
-                <input type="number" name="age" id="age" placeholder="Enter your age" required>
+                <input type="number" name="age" id="age" min="10" max="60" placeholder="Enter your age" required>
             </div>
 
             <div class="form-group">
@@ -49,15 +49,15 @@
             <div class="form-group">
                 <p class="form-label">Would you recommend freeCodeCamp to a friend?</p>
                 <label class="block">
-                    <input type="radio" name="recommend" checked>
+                    <input type="radio" value="definitely" name="recommend" checked>
                     Definitely
                 </label>
                 <label class="block">
-                    <input type="radio" name="recommend">
+                    <input type="radio" value="maybe" name="recommend">
                     May be
                 </label>
                 <label class="block">
-                    <input type="radio" name="recommend">
+                    <input type="radio" value="not-sure" name="recommend">
                     Not sure
                 </label>
             </div>
